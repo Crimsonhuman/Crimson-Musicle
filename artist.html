@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <title>Musicle - Artist</title>
+    <title>Document</title>
+</head>
+<body>
+    <div class="searchbar">
+        <i class="fa-light fa-magnifying-glass"></i>
+        <input type="text" placeholder="Artist, songs">
+    </div>   
+   
+    <div class="sidebar">
+        <h1>Music</h1>
+        <a href="homepage.html"><i class="fa-solid fa-house"></i> Home</a>
+        <br>
+        <a href="artist.html" style="color: yellow;"><i class="fa-solid fa-user"></i> Artist</a>
+    </div>
+    
+    <div class="artist-container">
+        <div class="artist-element">
+            <img src="https://images.genius.com/b6789da1b724242fdae0777b82fc06c1.1000x1000x1.jpg" alt="Band Photo">
+            <h1>Newjeans</h1>
+            <p>Group</p>
+            <button class="OmgSong" onclick="openNavOMG()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://images.genius.com/241a428a26492e718e552e99e8601397.1000x1000x1.png" alt="Band Photo">
+            <h1>The Peggies</h1>
+            <p>Group</p>
+            <button class="peggingSong" onclick="openNavPegging()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://cdn1-production-images-kly.akamaized.net/Th6CtjHHzcrxFqXRtOSYJb6RyW0=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2739186/original/034765800_1551249608-rc.jpg" alt="Band Photo">
+            <h1>Reality Club</h1>
+            <p>Group</p>
+            <button class="RealClub" onclick="openNavReality()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf" alt="Band Photo">
+            <h1>Payung Teduh</h1>
+            <p>Group</p>
+            <button class="payungSong" onclick="openNavPayung()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://i1.sndcdn.com/artworks-000300622176-ob223o-t500x500.jpg" alt="Band Photo">
+            <h1>Frederic</h1>
+            <p>Group</p>
+            <button class="oddSong" onclick="openNavOddLoop()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://goikuzo.com/wp-content/uploads/2022/05/EH9GqWOVUAEVFON-1.jpg" alt="Band Photo">
+            <h1>Vaundy</h1>
+            <p>Artist</p>
+            <button class="odorikoSong" onclick="openNavOdoriko()">About</button>
+        </div>
+    </div>
+    <div class="artist-container">
+        <div class="artist-element">
+            <img src="https://cdn1-production-images-kly.akamaized.net/a1NU1qsgjwpb7pC4H72yRKmmPvY=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4198373/original/038784100_1666268977-yoasobi2-1.jpg" alt="Band Photo">
+            <h1>Yoasobi</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNavYoasobi()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://i.scdn.co/image/ab67616d0000b273d29582617459e5bb81bd90a6" alt="Band Photo">
+            <h1>Natori</h1>
+            <p>Artist</p>
+            <button class="openbtn" onclick="openNavNTR()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://media.vgm.io/artists/61/6116/6116-1523238320.png" alt="Band Photo">
+            <h1>Yugo Kanno</h1>
+            <p>Artist</p>
+            <button class="openbtn" onclick="openNavJojo()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://www.mldspot.com/storage/generated/June2021/Hindia.jpg" alt="Band Photo">
+            <h1>Hindia</h1>
+            <p>Artist</p>
+            <button class="openbtn" onclick="openNavHindia()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/3/5/batch-upload/batch-upload_4939a188-96d4-4dc8-9f37-b8285a0ddb9f.png" alt="Band Photo">
+            <h1>Aimer</h1>
+            <p>Artist</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://cdn1-production-images-kly.akamaized.net/n-6EatdpWUoZZybFO9MNeX3IxCo=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/907808/original/083446200_1435033425-maroon-5.the_.weird_.robot_.jpg" alt="Band Photo">
+            <h1>Maroon 5</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+    </div>
+    <div class="artist-container">
+        <div class="artist-element">
+            <img src="https://i1.sndcdn.com/artworks-vOagDEk5E8MvN2sm-oBO6CQ-t500x500.jpg" alt="Band Photo">
+            <h1>Newjeans</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNavOMG()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://wallpapercave.com/wp/wp9365990.jpg" alt="Band Photo">
+            <h1>The Peggies</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://cdn1-production-images-kly.akamaized.net/DxGBr-azY2W4sXJ0IWg-TMRmknA=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2739186/original/034765800_1551249608-rc.jpg" alt="Band Photo">
+            <h1>Reality Club</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf" alt="Band Photo">
+            <h1>Payung Teduh</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://images.unsplash.com/photo-1679482451632-b2e126da7142?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Band Photo">
+            <h1>StockBand</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+        <div class="artist-element">
+            <img src="https://images.unsplash.com/photo-1679482451632-b2e126da7142?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Band Photo">
+            <h1>StockBand</h1>
+            <p>Group</p>
+            <button class="openbtn" onclick="openNav()">About</button>
+        </div>
+    </div>
+    
+    <div id="artistfo" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+       <h2>Song</h2>
+       <img src="https://static.wikia.nocookie.net/hiroyuki-sawano/images/7/71/UnChild_Limited_Edition_Slipcase_Cover.png" alt="Band Photo">
+       <h1>StarRingChild</h1>
+       <h3>Aimer</h3>
+       <p>Aimer is a Japanese pop singer and lyricist under Sacra Music and managed by agehasprings. Her stage name comes from the French word "Aimer" which means "to love".</p>
+    </div>
+    <!-- Open Nav -->
+    <div id="OmgSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavOmg()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/b6789da1b724242fdae0777b82fc06c1.1000x1000x1.jpg" alt="Band Photo">
+       <h1>OMG</h1>
+       <h3>Newjeans</h3>
+       <p>NewJeans is a South Korean girl group formed by ADOR. The group is composed of five members: Minji, Hanni, Danielle, Haerin, and Hyein. They debuted in July 2022 with the single "Attention", followed shortly afterwards by two other singles, "Hype Boy" and "Cookie"</p>
+    </div>
+    <!--  -->
+    <div id="peggingSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavPegging()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/241a428a26492e718e552e99e8601397.1000x1000x1.png" alt="Band Photo">
+       <h1>Centimeter</h1>
+       <h3>The Peggies</h3>
+       <p>The Peggies was a Japanese all-female rock band from Kawasaki, Kanagawa. Formed in 2011, the band is signed with Poppo Express and is currently affiliated with Epic Records Japan. Their name originates from the female name “Peggy”</p>
+    </div>
+    <!--  -->
+    <div id="RealClub" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavReality()">×</a>
+       <h2>Song</h2>
+       <img src="https://cdn1-production-images-kly.akamaized.net/Th6CtjHHzcrxFqXRtOSYJb6RyW0=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2739186/original/034765800_1551249608-rc.jpg" alt="Band Photo">
+       <h1>Anything You Want</h1>
+       <h3>Reality Club</h3>
+       <p>Reality Club is an indie rock music group from Indonesia which was formed on April 16, 2016. This music group is fronted by Fathia Izzati who is also a YouTuber.</p>
+    </div>
+    <!--  -->
+    <div id="payungSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavPayung()">×</a>
+       <h2>Song</h2>
+       <img src="https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf" alt="Band Photo">
+       <h1>Akad</h1>
+       <h3>Payung Teduh</h3>
+       <p>Parade Hujan is an Indonesian alternative/indie band with a fusion genre between folk, keroncong and jazz. Payung Teduh was formed in late 2007 with the initial formation of Is and Comi</p>
+    </div>
+    <!--  -->
+    <div id="oddSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavOddLoop()">×</a>
+       <h2>Song</h2>
+       <img src="https://i1.sndcdn.com/artworks-000300622176-ob223o-t500x500.jpg" alt="Band Photo">
+       <h1>Oddloop</h1>
+       <h3>Frederic</h3>
+       <p>Frederic is a Japanese rock band from Kobe formed in 2009. The band is signed to A-Sketch Music Label and has, as of 2015, released 4 EPs and multiple singles. In 2015, Frederic won the Kansai block local award at the 7th CD Shop Awards for their album oddloop.</p>
+    </div>
+    <!--  -->
+    <div id="odorikoSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavOdoriko()">×</a>
+       <h2>Song</h2>
+       <img src="https://goikuzo.com/wp-content/uploads/2022/05/EH9GqWOVUAEVFON-1.jpg" alt="Band Photo">
+           <h1>Odoriko</h1>
+       <h3>Vaundy</h3>
+       <p>Vaundy is a Japanese musician. He started his career in 2019 by independently uploading online, before breaking out late in the year with the song "Tokyo Flash". He has released songs for multiple TV shows, including "Chainsaw Blood" for Chainsaw Man and "Hadaka no Yuusha" for Ranking of Kings.</p>
+    </div>
+</body>
+</html>

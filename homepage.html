@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="music1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <title>Musicle - Home</title>
+</head>
+<body> 
+    <div class="searchbar">
+        <input type="text" placeholder="Artist, songs">
+    </div>   
+   
+    <div class="sidebar">
+        <h1>Music</h1>
+        <a href="homepage.html" style="color: yellow;"><i class="fa-solid fa-house"></i> Home</a>
+        <br>
+        <a href="artist.html"><i class="fa-solid fa-user"></i> Artist</a>
+    </div>
+
+    <div class="tophits">
+        <h2>Latest Top Hits</h2>
+        <a href="viewall.html">View All</a>
+    </div>
+    <br>
+    <div class="konten">
+            <div class="konten-list">
+                <img src="https://images.genius.com/b6789da1b724242fdae0777b82fc06c1.1000x1000x1.jpg" alt="Band Photo">
+                <button class="omgSong" onclick="openNavOMG()">OMG</button>
+                <p>Newjeans</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://images.genius.com/241a428a26492e718e552e99e8601397.1000x1000x1.png" alt="Band Photo">
+                <button class="peggingSong" onclick="openNavPegging()">Centimeter</button>
+                <p>The Peggies</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://cdn1-production-images-kly.akamaized.net/Th6CtjHHzcrxFqXRtOSYJb6RyW0=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2739186/original/034765800_1551249608-rc.jpg" alt="Band Photo">
+                <button class="RealClub" onclick="openNavReality()">Anything You Want</button>
+                <p>Reality Club</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf" alt="Band Photo">
+                <button class="payungSong" onclick="openNavPayung()">Akad</button>
+                <p>Payung Teduh</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i1.sndcdn.com/artworks-000300622176-ob223o-t500x500.jpg" alt="Band Photo">
+                <button class="oddSong" onclick="openNavOddLoop()">Oddloop</button>
+                <p>Frederic</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://goikuzo.com/wp-content/uploads/2022/05/EH9GqWOVUAEVFON-1.jpg" alt="Band Photo">
+                <button class="odorikoSong" onclick="openNavOdoriko()">Odoriko</button>
+                <p>Vaundy</p>
+            </div>
+    </div>
+
+    <div class="tophits">
+        <h2>New Release</h2>
+        <a href="newrelease.html">View All</a>
+    </div>
+    <br>
+    <div class="konten">
+            <div class="konten-list">
+                <img src="https://static.wikia.nocookie.net/hiroyuki-sawano/images/7/71/UnChild_Limited_Edition_Slipcase_Cover.png" alt="Band Photo">
+                <button class="artistfo" onclick="openNav()">StarRingChild</button>
+                <p>Aimer</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i.scdn.co/image/ab67616d0000b273d29582617459e5bb81bd90a6" alt="Band Photo">
+                <button class="Netorare" onclick="openNavNTR()">Overdose</button>
+                <p>Natori</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://pbs.twimg.com/media/FpVdskYXoAM_3vG.jpg:large" alt="Band Photo">
+                <button class="YoasobiSong" onclick="openNavYoasobi()">Idol</button>
+                <p>Yoasobi</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i1.sndcdn.com/artworks-lxX0Af9ilpqjLkz0-riicHQ-t500x500.jpg" alt="Band Photo">
+                <button class="INDIA" onclick="openNavHindia()">Secukupnya</button>
+                <p>Hindia</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Fifty_Fifty_-_The_Beginning_Cupid.png">
+                <button class="FIFTY" onclick="openNavFifFif()">Cupid</button>
+                <p>Fifty-fifty</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i.scdn.co/image/ab67616d0000b273ee07b239264db04dcf5148cd" alt="Band Photo">
+                <button class="JOJO" onclick="openNavJojo()">Il Vento D'oro</button>
+                <p>Yugo Kanno</p>
+            </div>
+    </div>
+
+    <div class="tophits">
+        <h2>Discover</h2>
+        <a href="discover.html">View All</a>
+    </div>
+    <br>
+    <div class="konten">
+            <div class="konten-list">
+                <img src="https://i.ytimg.com/vi/MK78JU18SxE/maxresdefault.jpg" alt="Band Photo">
+                <h1>Happy!</h1>
+                <p>Kobo Kanaeru</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://images.genius.com/fca050862c2eb9c72c7dc8b0340948d4.1000x1000x1.jpg" alt="Band Photo">
+                <h1>Baby You</h1>
+                <p>Yuka</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://mario.wiki.gallery/images/thumb/d/d5/Peaches.jpg/1200px-Peaches.jpg" alt="Band Photo">
+                <h1>Peaches</h1>
+                <p>Jack Black</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://images.genius.com/17f2e3fa1692719bbb588d9c6d2f5ca3.1000x1000x1.png" alt="Band Photo">
+                <button class="JOJO" onclick="openNavErial()">The Blessing</button>
+                <p>Yoasobi</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i.scdn.co/image/ab67616d0000b273c99ab3223833be0e6b391fe1" alt="Band Photo">
+                <h1>Sh-Boom</h1>
+                <p>The Chords</p>
+            </div>
+            <div class="konten-list">
+                <img src="https://i.scdn.co/image/ab67616d0000b273387444ab2fc1f08dfe7915ab" alt="Band Photo">
+                <h1>TT</h1>
+                <p>Twice</p>
+            </div>
+    </div>
+
+<!-- For Sidebar -->
+    <div id="artistfo" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+       <h2>Song</h2>
+       <img src="https://static.wikia.nocookie.net/hiroyuki-sawano/images/7/71/UnChild_Limited_Edition_Slipcase_Cover.png" alt="Band Photo">
+       <h1>StarRingChild</h1>
+       <h3>Aimer</h3>
+       <div class="containerSlider">
+        <input type="range" min="1" max="100" value="1" class="slider">
+   </div>
+   <div class="iconmusic">
+    <div class="iconcon">
+        <i class="fa-solid fa-play"></i>
+    </div>
+    
+   </div>
+       <p>Aimer is a Japanese pop singer and lyricist under Sacra Music and managed by agehasprings. Her stage name comes from the French word "Aimer" which means "to love".</p>
+    </div>
+    <!-- Open Nav -->
+    <div id="OmgSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavOmg()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/b6789da1b724242fdae0777b82fc06c1.1000x1000x1.jpg" alt="Band Photo">
+       <h1>OMG</h1>
+       <h3>Newjeans</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>
+        
+       </div>
+       <p>NewJeans is a South Korean girl group formed by ADOR. The group is composed of five members: Minji, Hanni, Danielle, Haerin, and Hyein. They debuted in July 2022 with the single "Attention", followed shortly afterwards by two other singles, "Hype Boy" and "Cookie"</p>
+    </div>
+    <!--  -->
+    <div id="peggingSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavPegging()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/241a428a26492e718e552e99e8601397.1000x1000x1.png" alt="Band Photo" >
+       <h1>Centimeter</h1>
+       <h3>The Peggies</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>    
+       </div>
+       <p>The Peggies was a Japanese all-female rock band from Kawasaki, Kanagawa. Formed in 2011, the band is signed with Poppo Express and is currently affiliated with Epic Records Japan. Their name originates from the female name “Peggy”</p>
+    </div>
+    <!--  -->
+    <div id="RealClub" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavReality()">×</a>
+       <h2>Song</h2>
+       <img src="https://cdn1-production-images-kly.akamaized.net/Th6CtjHHzcrxFqXRtOSYJb6RyW0=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2739186/original/034765800_1551249608-rc.jpg" alt="Band Photo">
+       <h1>Anything You Want</h1>
+       <h3>Reality Club</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Reality Club is an indie rock music group from Indonesia which was formed on April 16, 2016. This music group is fronted by Fathia Izzati who is also a YouTuber.</p>
+    </div>
+    <!--  -->
+    <div id="payungSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavPayung()">×</a>
+       <h2>Song</h2>
+       <img src="https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf" alt="Band Photo">
+       <h1>Akad</h1>
+       <h3>Payung Teduh</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Parade Hujan is an Indonesian alternative/indie band with a fusion genre between folk, keroncong and jazz. Payung Teduh was formed in late 2007 with the initial formation of Is and Comi</p>
+    </div>
+    <!--  -->
+    <div id="oddSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavOddLoop()">×</a>
+       <h2>Song</h2>
+       <img src="https://i1.sndcdn.com/artworks-000300622176-ob223o-t500x500.jpg" alt="Band Photo">
+       <h1>Oddloop</h1>
+       <h3>Frederic</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Frederic is a Japanese rock band from Kobe formed in 2009. The band is signed to A-Sketch Music Label and has, as of 2015, released 4 EPs and multiple singles. In 2015, Frederic won the Kansai block local award at the 7th CD Shop Awards for their album oddloop.</p>
+    </div>
+    <!--  -->
+    <div id="odorikoSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavOdoriko()">×</a>
+       <h2>Song</h2>
+       <img src="https://goikuzo.com/wp-content/uploads/2022/05/EH9GqWOVUAEVFON-1.jpg" alt="Band Photo">
+           <h1>Odoriko</h1>
+       <h3>Vaundy</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>
+       </div>
+       <p>Vaundy is a Japanese musician. He started his career in 2019 by independently uploading online, before breaking out late in the year with the song "Tokyo Flash". He has released songs for multiple TV shows.</p>
+    </div>
+    <!--  -->
+    <!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+    <!--  -->
+    <!-- Open Nav -->
+    <div id="Netorare" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavNTR()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/b6789da1b724242fdae0777b82fc06c1.1000x1000x1.jpg" alt="Band Photo">
+       <h1>Overdose</h1>
+       <h3>Natori</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>
+        
+       </div>
+       <p>Natori (なとり) is a Japanese musician whose music blends traditional Japanese sounds with modern pop music. Their sound has been described as hauntingly beautiful and ethereal. While their music is often compared to J-pop and K-pop, their sound is unique and distinct in its own way.</p>
+    </div>
+    <!--  -->
+    <div id="YoasobiSong" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavYoasobi()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/241a428a26492e718e552e99e8601397.1000x1000x1.png" alt="Band Photo" >
+       <h1>Idol</h1>
+       <h3>Yoasobi</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>    
+       </div>
+       <p>Yoasobi is a Japanese music superduo formed by Sony Music Entertainment Japan, consisting of Vocaloid producer Ayase, and singer-songwriter Ikura.</p>
+    </div>
+    <!--  -->
+    <div id="INDIA" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavHindia()">×</a>
+       <h2>Song</h2>
+       <img src="https://cdn1-production-images-kly.akamaized.net/Th6CtjHHzcrxFqXRtOSYJb6RyW0=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2739186/original/034765800_1551249608-rc.jpg" alt="Band Photo">
+       <h1>Secukupnya</h1>
+       <h3>Hindia</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Daniel Baskara Putra is a singer and songwriter from Indonesia. He is the vocalist of the band .Feast but has also released solo music under the moniker Indies.</p>
+    </div>
+    <!--  -->
+    <div id="FIFTY" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavFifFif()">×</a>
+       <h2>Song</h2>
+       <img src="https://i.scdn.co/image/ab6761610000e5ebfc58f42abb126bbe177239cf" alt="Band Photo">
+       <h1>Fifty-fifty</h1>
+       <h3>Cupid</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Fifty Fifty is a South Korean girl group formed by Attrakt in 2022. The group consists of four members: Saena, Aran, Keena, and Sio. Fifty Fifty debuted on November 18, 2022, with the single "Higher" from their first extended play The Fifty.</p>
+    </div>
+    <!--  -->
+    <div id="JOJO" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavJojo()">×</a>
+       <h2>Song</h2>
+       <img src="https://i1.sndcdn.com/artworks-000300622176-ob223o-t500x500.jpg" alt="Band Photo">
+       <h1>Il vento d’oro</h1>
+       <h3>Yugo Kanno</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Yugo Kanno is a Japanese composer, arranger and music producer best known for her work on the soundtracks of anime series, video games, television dramas and movies. he has written scores for Cowboy Bebop, Terror in Resonance, Ghost in the Shell: Stand Alone Complex, Wolf's Rain and Darker than Black.</p>
+    </div>
+    <div id="eri" class="artist-info">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavErial()">×</a>
+       <h2>Song</h2>
+       <img src="https://images.genius.com/17f2e3fa1692719bbb588d9c6d2f5ca3.1000x1000x1.png" alt="Band Photo">
+       <h1>The Blessing</h1>
+       <h3>Yoasobi</h3>
+       <div class="containerSlider">
+            <input type="range" min="1" max="100" value="1" class="slider">
+       </div>
+       <div class="iconmusic">
+        <div class="iconcon">
+            <i class="fa-solid fa-play"></i>
+        </div>       </div>
+       <p>Yoasobi is a Japanese music superduo formed by Sony Music Entertainment Japan, consisting of Vocaloid producer Ayase, and singer-songwriter Ikura.</p>
+    </div>
+
+
+</body>
+</html>

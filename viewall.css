@@ -1,0 +1,154 @@
+body{
+    background-color: #1e1e1e;
+    font-family: 'Nunito', sans-serif;
+}
+
+.sidebar{
+    z-index: 150;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d1d1d;
+    padding-top: 20px;
+}
+
+.sidebar h1{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 185%;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 61px;
+}
+
+.sidebar a:hover{
+    border: solid yellow;
+    border-radius: 20px;
+    border-width: 2px;
+    transition: 0.1s;
+    
+}
+
+
+.view-images{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 250px;
+    height: 220px;
+    margin: auto;
+    top:10px;
+    display: block;
+    align-self: center;
+    overflow: hidden;
+  }
+  .view-images img{
+        width: 1220px;
+        min-height: 220px;
+        /* height: 280px; */
+        background: white;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+  .lthits{
+    position: absolute;
+    color: white;
+    font-weight:lighter;
+    padding-left: 250px;
+    top: 290px;
+  }
+
+  .column{
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    width: 1220px;
+    height: 300px;
+    justify-content:  center;
+    margin-left: 250px;
+    margin-top: 400px;
+    padding-left: 5px;
+    color: white;
+  }
+
+  /* .column ::-webkit-scrollbar{
+    width: 20px;
+  }
+  .column ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+
+  .column::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  } */
+
+  .columnTit{
+    height: 100px;
+  }
+  
+  .columnTit h2{
+    font-size: 1.2rem;
+  }
+
+  .columnTet{
+    height: 80px;
+    margin-bottom: 15px;
+    justify-content: center;
+    /* margin:  0; */
+  }
+  .columnTet h2{
+    font-size: 1.2rem;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
+
+  .number{
+    width: 10%;
+  }
+  .albumphoto{
+    width: 15%;
+  }
+  .columnTet img{
+    max-width: 80px;
+    min-height: 80px;
+  }
+  .songname{
+    width: 30%;
+  }
+  .artistname{
+    width: 25%;
+  }
+  .songduration{
+    width: 20%;
+  }
